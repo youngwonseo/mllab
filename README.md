@@ -1,6 +1,6 @@
 # MLLAB
 
-![g](/documents/1.png)
+![](./documents/1.png)
 
 
 
