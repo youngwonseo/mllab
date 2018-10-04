@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <div class="side">
+      <a href="#">Dashboard</a>
+      <a href="#">Dashboard</a>
+    </div>
     <router-view/>
   </div>
 </template>
@@ -17,6 +21,22 @@ body {
   height: 100%;
   font-family: Helvetica, Verdana, sans-serif;
 }
+
+.side{
+  top: 0;
+  left: 0;
+  height:100%;
+  width:150px;
+  float:left;
+}
+
+.side a {
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+
 .container{
   height: 100%;
   display: flex;
@@ -27,7 +47,6 @@ body {
 }
 .left_div {
   width:50%;
-  
 }
 
 .right_div{
