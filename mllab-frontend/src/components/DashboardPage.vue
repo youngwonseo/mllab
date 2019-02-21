@@ -189,8 +189,7 @@ export default {
           left: 30,
           top: 30,
           right: 30,
-          bottom: 30,
-          
+          bottom: 30
         },
         xAxis: {
           type: 'category',
@@ -271,7 +270,6 @@ export default {
 }
 
 .list-item {
-  
   background-color: #31334a;
   margin: 10px;
   padding: 5px;

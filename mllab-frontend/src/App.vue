@@ -32,31 +32,31 @@ body {
     color: #fff;
     text-align: center;
     line-height: 60px;
-  }
-  
-  .el-aside {
-    color: #fff;
-    background-color:#31334a;
-    text-align: center;
-    line-height: 50px;
-  }
-  
-  .el-main {
-    padding: 0px;
-    color: #fff;
-    text-align: center;
-  }
-  
-  body > .el-container {
-    height: 100%;
-  }
-  
-  .el-container:nth-child(5) .el-aside,
-  .el-container:nth-child(6) .el-aside {
-    line-height: 260px;
-  }
-  
-  .el-container:nth-child(7) .el-aside {
-    line-height: 320px;
-  }
+}
+
+.el-aside {
+  color: #fff;
+  background-color:#31334a;
+  text-align: center;
+  line-height: 50px;
+}
+
+.el-main {
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+body > .el-container {
+  height: 100%;
+}
+
+.el-container:nth-child(5) .el-aside,
+.el-container:nth-child(6) .el-aside {
+  line-height: 260px;
+}
+
+.el-container:nth-child(7) .el-aside {
+  line-height: 320px;
+}
 </style>
